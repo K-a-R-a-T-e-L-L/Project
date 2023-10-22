@@ -1,0 +1,78 @@
+.Header {
+    background: radial-gradient(rgb(0, 0, 0), rgba(26, 26, 26, 0.988));
+    height: 8vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    border: 0.001vw solid rgb(0, 255, 183);
+    position: relative;
+}
+
+.LinkStyling {
+    text-decoration: none;
+    margin-right: 9vw;
+    color: rgb(0, 255, 225);
+    font-size: 2.5vw;
+    text-shadow: 0vw 0vw 0.5vw rgb(0, 229, 255);
+}
+
+.LinkStyling:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.LinkStyling:active {
+    color: rgb(4, 197, 197);
+}
+
+.ActiveLink {
+    text-decoration: underline;
+}
+
+.BoxLink {
+    position: absolute;
+    left: 10vw;
+}
+
+.UserCircleBox {
+    width: 15vw;
+    height: 5vw;
+    position: absolute;
+    right: 2vw;
+    top: -0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserName {
+    font-size: 1.8vw;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 0.4vw;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.UserName:hover {
+    color: rgb(162, 212, 255);
+}
+
+.UserName:active {
+    color: rgb(111, 188, 255);
+}
+
+.Registration {
+    position: absolute;
+    right: 3vw;
+    color: rgb(255, 0, 170);
+}
+
+.Registration:hover {
+    cursor: pointer;
+    color: rgb(171, 0, 171);
+}
+
+.Registration:active {
+    color: rgb(255, 0, 255);
+}

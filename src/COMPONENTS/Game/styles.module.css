@@ -1,0 +1,49 @@
+.BoxCell{
+    width: 31vw;
+    height: 31vw;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    top: -2vw;
+}
+
+.BoxCell:hover{
+    cursor: pointer;
+}
+
+.CellX{
+    color: aqua;
+}
+
+.CellO{
+    color: red;
+}
+
+.BoxPlayer{
+    width: 30vw;
+    height: 5vw;
+    border: 0.1vw solid aqua;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -3vw;
+}
+
+.ButtonOk{
+    width: 5vw;
+    height: 2vw;
+    background-color: black;
+    color: white;
+    border: 0.1vw solid rgb(0, 255, 51);
+}
+
+.ButtonOk:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.ButtonOk:active{
+    transform: translateY(-0.05vw);
+}

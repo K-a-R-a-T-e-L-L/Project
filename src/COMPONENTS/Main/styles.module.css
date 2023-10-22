@@ -1,0 +1,8 @@
+.Main{
+    background: radial-gradient(rgba(47, 47, 47, 0.999), rgb(0, 0, 0));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

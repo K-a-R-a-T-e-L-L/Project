@@ -1,0 +1,107 @@
+.LableStyling {
+    position: relative;
+    top: -5vw;
+    display: block;
+    width: 25vw;
+    height: 25vw;
+    background-color: rgba(0, 0, 0, 0.252);
+    border: 0.1vw solid rgb(0, 255, 234);
+    display: grid;
+    place-items: center;
+}
+
+.InputInfoStyling {
+    color: black;
+    width: 18vw;
+    height: 1.8vw;
+}
+
+.ButtonOkStyling {
+    width: 10vw;
+    height: 2vw;
+    color: black;
+    background-color: rgb(163, 255, 211);
+}
+
+.ButtonOkStyling:hover {
+    cursor: pointer;
+    background-color: rgb(79, 135, 108);
+}
+
+.ButtonOkStyling:active {
+    background-color: rgb(63, 255, 194);
+    transform: translateY(-0.05vw);
+}
+
+.WelcomeBoxStyling {
+    background-color: rgba(0, 0, 0, 0.336);
+    border: 0.1vw solid rgb(0, 255, 234);
+    width: 23vw;
+    height: 13vw;
+    position: relative;
+    top: -5vw;
+    display: grid;
+    place-items: center;
+}
+
+.ButtonBackStyling {
+    width: 7vw;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: rgb(179, 255, 246);
+}
+
+.ButtonBackStyling:hover {
+    cursor: pointer;
+    background-color: rgb(111, 150, 145);
+}
+
+.ButtonBackStyling:active {
+    background-color: rgb(100, 255, 237);
+    transform: translateY(-0.05vw);
+}
+
+.TitleRegistration {
+    position: relative;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.5vw rgb(0, 224, 254);
+}
+
+.BoxInput {
+    display: grid;
+    place-items: center;
+    width: 19vw;
+    height: 16vw;
+}
+
+.BoxInputErrorInput {
+    display: grid;
+    place-items: center;
+    width: 19vw;
+    height: 16vw;
+    border: 0.1vw solid red;
+}
+
+.WelcomeUserTitle {
+    text-shadow: 0vw 0vw 0.5vw rgb(0, 224, 254);
+    width: auto;
+    max-width: 22vw;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.BackAccImgStyling {
+    background-color: rgba(240, 248, 255, 0);
+    width: 1.2vw;
+    height: 1.2vw;
+    position: absolute;
+    right: 0.5vw;
+}
+
+.TitleExit {
+    position: relative;
+    right: 0.8vw;
+    color: black;
+}

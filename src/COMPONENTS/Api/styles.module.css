@@ -1,0 +1,127 @@
+.BoxTeamStyling {
+    font-size: 1.1vw;
+    margin-bottom: 0.1vw;
+    position: relative;
+    top: -4vw;
+    left: 4vw;
+}
+
+.TitleTeamStyling {
+    position: relative;
+    left: 29vw;
+    top: -2.5vw;
+}
+
+.SpanTeam {
+    color: aqua;
+    font-size: 1.1vw;
+    text-decoration: underline;
+}
+
+.DeleteTeamStyling {
+    background-color: rgba(240, 248, 255, 0);
+    width: 1.2vw;
+    height: 1.2vw;
+    font-size: 1.1vw;
+    position: absolute;
+    right: 0.1vw;
+    top: 0.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeleteTeamStyling:hover {
+    cursor: pointer;
+    box-shadow: 0vw 0vw 0.8vw rgb(17, 255, 0);
+}
+
+.DeleteTeamStyling:active {
+    box-shadow: 0vw 0vw 0.8vw rgb(255, 0, 0);
+}
+
+.AnimationUploading {
+    width: 21vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000000;
+}
+
+.Wave {
+    width: 0.3vw;
+    height: 8vw;
+    background: linear-gradient(45deg, cyan, #fff);
+    margin: 0.2vw;
+    border-radius: 0.4vw;
+    animation: Wave 1s linear infinite;
+}
+
+.Wave:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.Wave:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.Wave:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.Wave:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.Wave:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.Wave:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.Wave:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+.Wave:nth-child(9) {
+    animation-delay: 0.8s;
+}
+
+.Wave:nth-child(10) {
+    animation-delay: 0.9s;
+}
+
+@keyframes Wave {
+    0% {
+        transform: scale(0)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(0)
+    }
+}
+
+.Reload{
+    width: 4vw;
+    height: 4vw;
+    font-size: 4vw;
+    position: relative;
+    background-color: #00000000;
+    right: 37vw;
+    top: 15vw;
+}
+
+.Reload:hover{
+    cursor: pointer;
+}
+
+.Reload:active{
+    transform: translateY(-0.05vw);
+}
